@@ -1,0 +1,20 @@
+# Global
+.*.swp
+.DS_Store
+
+# Application
+data/db/*
+data/php/*
+data/symfony/*
+data/nginx/*
+
+# PHPStorm
+.idea/
+
+# Netbeans
+nbproject/
+/nbproject/
+/nbproject/private/
+/nbproject/private/private.properties
+
+api/config/secrets/prod/prod.decrypt.private.php
